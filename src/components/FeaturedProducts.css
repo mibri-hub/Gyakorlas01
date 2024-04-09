@@ -1,0 +1,37 @@
+.feature-pruducts-container{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #3498db, #2ecc71);
+    padding: 20px;
+    gap: 20px;
+    
+}
+.featured-product {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .featured-product :hover {
+    transform: scale(1.05);
+  }
+  
+  h1  {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  h2{
+    text-align: left;
+  }
+  

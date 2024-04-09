@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+h1, h2{
+  color: #3498db;
+}
+.container h3 {
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #3498db, #2ecc71);
+  border-image-slice: 1;
+}
+.home{
+  max-width: 800px;
+  margin: auto;
+}
+.provider{
+  color: black;
+}
+.home{
+ text-align: center;
+}
+  
+  footer{ 
+    text-align: center;
+    margin-top: 1rem;
+    border-top: 1px solid gray;
+  }
